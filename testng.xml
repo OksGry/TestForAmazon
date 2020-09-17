@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+
+    <test name="TestForAmazon">
+        <classes>
+            <class name="tests.AccountTests" />
+            <class name="tests.BaseTest" />
+            <class name="tests.CartTests" />
+            <class name="tests.FilterTest" />
+            <class name="tests.SearchTest" />
+
+        </classes>
+    </test>
+</suite>
