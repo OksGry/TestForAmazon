@@ -53,6 +53,7 @@ public class HomePage extends BasePage {
         return cartCount.getText();
     }
 
+    // done
 
 
 }
